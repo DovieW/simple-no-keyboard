@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simple No Keyboard</string>
+    <string name="ime_name">Simple No Keyboard IME</string>
+    <string name="ime_settings">Settings</string>
+</resources>
