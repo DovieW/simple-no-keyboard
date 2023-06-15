@@ -3,6 +3,7 @@
     package="com.example.simplenullkeyboard" >
 
     <uses-permission android:name="android.permission.BIND_INPUT_METHOD"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -20,6 +21,10 @@
             <meta-data
                 android:name="android.view.im"
                 android:resource="@xml/method" />
+        </service>
+        <service android:name=".SwitchService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync">
         </service>
     </application>
 
