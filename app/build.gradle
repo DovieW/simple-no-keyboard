@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.simplenullkeyboard'
+    namespace 'com.simplenullkeyboard'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.simplenullkeyboard"
+        applicationId "com.simplenullkeyboard"
         minSdk 33
         targetSdk 33
         versionCode 1
